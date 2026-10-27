@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // N1: Integrate-and-Fire (Lapicque 1907)
 //   C dV/dt = I            ;  V >= Vth -> spike, V <- Vreset

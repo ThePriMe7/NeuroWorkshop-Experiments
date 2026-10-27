@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // N3: Adaptive LIF (spike-frequency adaptation), linear form of AdEx
 //   (Brette & Gerstner 2005, with the exponential term dropped)

@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // L2: STDP mini-network (after Song, Miller & Abbott 2000)
 //   N_IN presynaptic spike trains -> exponential synapses -> one LIF neuron

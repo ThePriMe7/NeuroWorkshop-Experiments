@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // S3: Alpha synapse (Rall 1967): PSC ~ (t/tau) exp(1 - t/tau)
 // Realised as two cascaded first-order filters with equal tau:

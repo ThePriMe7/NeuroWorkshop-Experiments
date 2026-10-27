@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // N2: Leaky Integrate-and-Fire with absolute refractory period
 //   tau dV/dt = -(V - Vrest) + R*I

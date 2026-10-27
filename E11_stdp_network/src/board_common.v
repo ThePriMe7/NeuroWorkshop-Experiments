@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // Basys 3 helpers shared by every experiment (copied into each experiment's src/ folder).
 //   step_tick     : one-cycle `en` pulse at STEP_HZ, so one model step is slow enough to watch

@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // N5: Quadratic Integrate-and-Fire (Ermentrout 1996; Latham et al. 2000)
 //   tau dV/dt = a0 (V - Vrest)(V - Vc) + R*I ; V >= Vpeak -> V <- Vreset

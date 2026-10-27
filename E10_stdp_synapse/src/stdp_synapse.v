@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // L1: Pair-based STDP with exponential traces
 //   (Bi & Poo 1998; Song, Miller & Abbott 2000; trace form: Morrison et al. 2008)

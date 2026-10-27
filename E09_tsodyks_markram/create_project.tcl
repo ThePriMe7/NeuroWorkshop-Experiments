@@ -1,3 +1,7 @@
+# Neuromorphic Bootcamp - Basys 3 experiments
+# Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+#          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+#
 # Vivado: create the project (GUI-ready .xpr), run the self-checking simulation,
 # then synthesis + implementation + bitstream for the Basys 3.
 #   vivado -mode batch -source create_project.tcl      (or Tools -> Run Tcl Script in the GUI)

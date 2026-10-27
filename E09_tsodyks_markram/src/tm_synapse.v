@@ -1,3 +1,7 @@
+// Neuromorphic Bootcamp - Basys 3 experiments
+// Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
+//          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+//
 `timescale 1ns/1ps
 // S4: Tsodyks-Markram dynamic synapse (Tsodyks & Markram 1997; Markram et al. 1998)
 //   dx/dt = (1 - x)/tau_rec            x: available resources  (Q16, 1.0 = 65536)
