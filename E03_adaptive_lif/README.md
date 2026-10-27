@@ -1,7 +1,8 @@
 # E03 adaptive_lif: Adaptive LIF neuron
 
 **Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
-Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)  
+**Guide:** Dr. G. Lakshminarayanan, Professor (HAG), Department of ECE, NIT Tiruchirappalli (NIT Trichy)
 
 **Slides:** the [workshop deck](../slides/Neuromorphic_Bootcamp_Workshop.pdf) explains the physics of every model and walks through each lab.
 
@@ -61,6 +62,7 @@ What to try:
 2. Make TAU_W smaller (faster recovery). How do the ISIs change?
 
 ## Author and license
-D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy),
+under the guidance of Dr. G. Lakshminarayanan, Professor (HAG), Department of ECE, NIT Tiruchirappalli.
 
 Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.
