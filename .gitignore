@@ -1,0 +1,30 @@
+# Python / Node environments (recreate: see README)
+.venv/
+__pycache__/
+slides/pptx/node_modules/
+
+# LaTeX intermediates (keep the PDFs)
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+slides/build/qa/
+slides/build/pq/
+slides/build/fpga/qa/
+
+# Simulation outputs (regenerate with `make all`)
+sim/*.vvp
+sim/*.vcd
+
+# Vivado scratch
+*.jou
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+xsim.dir/
+*.wdb

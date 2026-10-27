@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../Xilinx/2025.2/data/rsb/busdef" \
+"../../../../../src/lif_neuron.v" \
+"../../../../../src/stdp_network.v" \
+"../../../../../src/stdp_synapse.v" \
+"../../../../../sim/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

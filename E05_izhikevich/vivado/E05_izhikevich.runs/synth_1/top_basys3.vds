@@ -1,0 +1,430 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 12:34:56 MST 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Oct 26 19:37:46 2026
+# Process ID         : 2877172
+# Current directory  : /home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/vivado/E05_izhikevich.runs/synth_1
+# Command line       : vivado -log top_basys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_basys3.tcl
+# Log file           : /home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/vivado/E05_izhikevich.runs/synth_1/top_basys3.vds
+# Journal file       : /home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/vivado/E05_izhikevich.runs/synth_1/vivado.jou
+# Running On         : Prima
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04.1 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700
+# CPU Frequency      : 1020.419 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 32837 MB
+# Swap memory        : 35433 MB
+# Total Virtual      : 68271 MB
+# Available Virtual  : 45928 MB
+#-----------------------------------------------------------
+source top_basys3.tcl -notrace
+Command: synth_design -top top_basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2877245
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2191.426 ; gain = 482.156 ; free physical = 894 ; free virtual = 42622
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_basys3' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/top_basys3.v:3]
+INFO: [Synth 8-6157] synthesizing module 'step_tick' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:10]
+	Parameter STEP_HZ bound to: 200 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'step_tick' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:10]
+INFO: [Synth 8-6157] synthesizing module 'izh_neuron' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+	Parameter A bound to: 5 - type: integer 
+	Parameter B bound to: 51 - type: integer 
+	Parameter C bound to: -16640 - type: integer 
+	Parameter D bound to: 2048 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'izh_neuron' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+INFO: [Synth 8-6157] synthesizing module 'izh_neuron__parameterized0' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+	Parameter A bound to: 5 - type: integer 
+	Parameter B bound to: 51 - type: integer 
+	Parameter C bound to: -14080 - type: integer 
+	Parameter D bound to: 1024 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'izh_neuron__parameterized0' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+INFO: [Synth 8-6157] synthesizing module 'izh_neuron__parameterized1' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+	Parameter A bound to: 5 - type: integer 
+	Parameter B bound to: 51 - type: integer 
+	Parameter C bound to: -12800 - type: integer 
+	Parameter D bound to: 512 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'izh_neuron__parameterized1' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+INFO: [Synth 8-6157] synthesizing module 'izh_neuron__parameterized2' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+	Parameter A bound to: 26 - type: integer 
+	Parameter B bound to: 51 - type: integer 
+	Parameter C bound to: -16640 - type: integer 
+	Parameter D bound to: 512 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'izh_neuron__parameterized2' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/izh_neuron.v:12]
+INFO: [Synth 8-6157] synthesizing module 'pulse_stretch' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'pulse_stretch' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:37]
+INFO: [Synth 8-6157] synthesizing module 'bar15' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:50]
+	Parameter FULL bound to: 110 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'bar15' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:50]
+INFO: [Synth 8-6157] synthesizing module 'seg7_signed' [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'seg7_signed' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/board_common.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'top_basys3' (0#1) [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/src/top_basys3.v:3]
+WARNING: [Synth 8-7129] Port btnU in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnL in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnR in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top_basys3 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2282.395 ; gain = 573.125 ; free physical = 787 ; free virtual = 42516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2297.238 ; gain = 587.969 ; free physical = 786 ; free virtual = 42515
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2297.238 ; gain = 587.969 ; free physical = 786 ; free virtual = 42515
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2297.238 ; gain = 0.000 ; free physical = 786 ; free virtual = 42515
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/constr/basys3.xdc]
+Finished Parsing XDC File [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/constr/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/constr/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2402.977 ; gain = 0.000 ; free physical = 773 ; free virtual = 42502
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2403.012 ; gain = 0.000 ; free physical = 773 ; free virtual = 42502
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2403.012 ; gain = 693.742 ; free physical = 762 ; free virtual = 42491
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2410.980 ; gain = 701.711 ; free physical = 762 ; free virtual = 42491
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2410.980 ; gain = 701.711 ; free physical = 762 ; free virtual = 42491
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2410.980 ; gain = 701.711 ; free physical = 758 ; free virtual = 42488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   64 Bit       Adders := 4     
+	   5 Input   64 Bit       Adders := 4     
+	   2 Input   32 Bit       Adders := 14    
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 42    
++---Registers : 
+	               32 Bit    Registers := 7     
+	                1 Bit    Registers := 5     
++---Multipliers : 
+	               4x64  Multipliers := 3     
+	              32x32  Multipliers := 4     
+	               7x64  Multipliers := 4     
+	               6x64  Multipliers := 1     
+	               7x32  Multipliers := 4     
+	               4x32  Multipliers := 4     
+	               5x32  Multipliers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 3     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 34    
+	   3 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP u_fs/vsq, operation Mode is: A*B.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: Generating DSP u_fs/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: Generating DSP u_fs/vsq, operation Mode is: A*B.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: Generating DSP u_fs/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: operator u_fs/vsq is absorbed into DSP u_fs/vsq.
+DSP Report: Generating DSP u_rs/vsq, operation Mode is: A*B.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: Generating DSP u_rs/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: Generating DSP u_rs/vsq, operation Mode is: A*B.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: Generating DSP u_rs/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: operator u_rs/vsq is absorbed into DSP u_rs/vsq.
+DSP Report: Generating DSP u_ch/vsq, operation Mode is: A*B.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: Generating DSP u_ch/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: Generating DSP u_ch/vsq, operation Mode is: A*B.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: Generating DSP u_ch/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: operator u_ch/vsq is absorbed into DSP u_ch/vsq.
+DSP Report: Generating DSP u_ib/vsq, operation Mode is: A*B.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: Generating DSP u_ib/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: Generating DSP u_ib/vsq, operation Mode is: A*B.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: Generating DSP u_ib/vsq, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+DSP Report: operator u_ib/vsq is absorbed into DSP u_ib/vsq.
+WARNING: [Synth 8-7129] Port btnU in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnL in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port btnR in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[13] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top_basys3 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2410.980 ; gain = 701.711 ; free physical = 724 ; free virtual = 42460
+---------------------------------------------------------------------------------
+ Sort Area is  u_ch/vsq_a : 0 0 : 2701 4822 : Used 1 time 0
+ Sort Area is  u_ch/vsq_a : 0 1 : 2121 4822 : Used 1 time 0
+ Sort Area is  u_fs/vsq_0 : 0 0 : 2701 4822 : Used 1 time 0
+ Sort Area is  u_fs/vsq_0 : 0 1 : 2121 4822 : Used 1 time 0
+ Sort Area is  u_ib/vsq_8 : 0 0 : 2701 4822 : Used 1 time 0
+ Sort Area is  u_ib/vsq_8 : 0 1 : 2121 4822 : Used 1 time 0
+ Sort Area is  u_rs/vsq_6 : 0 0 : 2701 4822 : Used 1 time 0
+ Sort Area is  u_rs/vsq_6 : 0 1 : 2121 4822 : Used 1 time 0
+ Sort Area is  u_ch/vsq_b : 0 0 : 2158 3919 : Used 1 time 0
+ Sort Area is  u_ch/vsq_b : 0 1 : 1761 3919 : Used 1 time 0
+ Sort Area is  u_fs/vsq_3 : 0 0 : 2158 3919 : Used 1 time 0
+ Sort Area is  u_fs/vsq_3 : 0 1 : 1761 3919 : Used 1 time 0
+ Sort Area is  u_ib/vsq_9 : 0 0 : 2158 3919 : Used 1 time 0
+ Sort Area is  u_ib/vsq_9 : 0 1 : 1761 3919 : Used 1 time 0
+ Sort Area is  u_rs/vsq_7 : 0 0 : 2158 3919 : Used 1 time 0
+ Sort Area is  u_rs/vsq_7 : 0 1 : 1761 3919 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|top_basys3  | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2518.980 ; gain = 809.711 ; free physical = 605 ; free virtual = 42342
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2545.012 ; gain = 835.742 ; free physical = 576 ; free virtual = 42313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2554.027 ; gain = 844.758 ; free physical = 564 ; free virtual = 42301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 371 ; free virtual = 42108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 371 ; free virtual = 42108
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 372 ; free virtual = 42109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 372 ; free virtual = 42109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 374 ; free virtual = 42110
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 374 ; free virtual = 42111
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|top_basys3  | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 30     | 18     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 17     | 18     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 30     | 18     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 17     | 18     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 30     | 18     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 17     | 18     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 30     | 18     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|top_basys3  | PCIN>>17+A*B | 17     | 18     | -      | -      | 34     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |   617|
+|3     |DSP48E1 |    16|
+|4     |LUT1    |    75|
+|5     |LUT2    |  2269|
+|6     |LUT3    |   245|
+|7     |LUT4    |    98|
+|8     |LUT5    |   113|
+|9     |LUT6    |   263|
+|10    |FDRE    |   138|
+|11    |FDSE    |   192|
+|12    |IBUF    |     9|
+|13    |OBUF    |    27|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.840 ; gain = 1012.570 ; free physical = 374 ; free virtual = 42111
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2721.840 ; gain = 906.797 ; free physical = 375 ; free virtual = 42112
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 2721.848 ; gain = 1012.570 ; free physical = 376 ; free virtual = 42112
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2721.848 ; gain = 0.000 ; free physical = 430 ; free virtual = 42166
+INFO: [Netlist 29-17] Analyzing 633 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2777.867 ; gain = 0.000 ; free physical = 435 ; free virtual = 42172
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: bd87c7a7
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 24 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:27 . Memory (MB): peak = 2777.902 ; gain = 1159.969 ; free physical = 435 ; free virtual = 42172
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1886.881; main = 1857.693; forked = 279.950
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3503.855; main = 2777.871; forked = 995.871
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00 . Memory (MB): peak = 2801.879 ; gain = 0.000 ; free physical = 435 ; free virtual = 42173
+INFO: [Common 17-1381] The checkpoint '/home/ecelab/neuro_exp_tmp2/experiments/E05_izhikevich/vivado/E05_izhikevich.runs/synth_1/top_basys3.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_basys3_utilization_synth.rpt -pb top_basys3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 26 19:38:16 2026...
