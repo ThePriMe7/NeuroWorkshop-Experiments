@@ -1,5 +1,8 @@
 # E04 qif_neuron: Quadratic Integrate-and-Fire neuron
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -54,3 +57,8 @@ What to try:
 ## Exercises
 1. Find the exact switch value where firing starts and compare with a0·Vc²/4.
 2. Look at V just before a spike: is the upswing linear or curved? Why?
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.

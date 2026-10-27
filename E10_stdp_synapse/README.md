@@ -1,5 +1,8 @@
 # E10 stdp_synapse: STDP synapse: learning from spike timing
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -54,3 +57,8 @@ What to try:
 ## Exercises
 1. Plot stdp_window.csv: dw against Δt (the learning window).
 2. Make A_MINUS equal to A_PLUS. Is the window still asymmetric?
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.

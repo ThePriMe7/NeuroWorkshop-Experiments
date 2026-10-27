@@ -1,5 +1,8 @@
 # E02 lif_neuron: Leaky Integrate-and-Fire neuron
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -55,3 +58,8 @@ What to try:
 ## Exercises
 1. Change TAU_SHIFT from 4 to 2 (shorter τ). What happens to the charging curve?
 2. Find the smallest switch value that fires. Explain it with V∞ = R·I.
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.

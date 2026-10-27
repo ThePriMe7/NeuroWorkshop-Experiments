@@ -1,5 +1,8 @@
 # E01 if_neuron: Integrate-and-Fire neuron
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -52,3 +55,8 @@ What to try:
 ## Exercises
 1. Halve VTH in if_neuron.v. Predict the new spike count, then simulate.
 2. Why is a neuron without a leak unrealistic? Try I = 1 (Q8).
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.

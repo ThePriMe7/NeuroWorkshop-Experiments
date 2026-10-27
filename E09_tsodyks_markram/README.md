@@ -1,5 +1,8 @@
 # E09 tsodyks_markram: Tsodyks-Markram dynamic synapse
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -57,3 +60,8 @@ What to try:
 ## Exercises
 1. Shorten the train period. Does depression get stronger?
 2. Swap the parameters of the two synapses.
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.

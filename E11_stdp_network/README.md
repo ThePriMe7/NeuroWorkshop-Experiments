@@ -1,5 +1,8 @@
 # E11 stdp_network: STDP network: unsupervised learning
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -57,3 +60,8 @@ What to try:
 ## Exercises
 1. Correlate inputs 2 and 3 instead. Which pair wins now?
 2. Set A_MINUS = 8 (no longer LTD-dominant). What happens to all weights?
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.

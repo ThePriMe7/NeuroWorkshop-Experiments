@@ -2,6 +2,7 @@
 # Neuromorphic Bootcamp - Basys 3 experiments
 # Author : D. Mohan Reddy, PMRF (Prime Minister's Research Fellow)
 #          Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+# Copyright (c) 2026 D. Mohan Reddy. SPDX-License-Identifier: MIT (see LICENSE)
 #
 # Optional open-source check (Icarus Verilog): same testbench, same PASS/FAIL
 cd "$(dirname "$0")"

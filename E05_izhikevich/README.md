@@ -1,5 +1,8 @@
 # E05 izhikevich: Izhikevich neuron: four cell types
 
+**Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
+Department of ECE, NIT Tiruchirappalli (NIT Trichy)
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
@@ -57,3 +60,8 @@ What to try:
 ## Exercises
 1. Add a fifth cell: a=0.02, b=0.25, c=-65, d=0.05 (low-threshold spiking).
 2. Plot v against u from the CSV: the phase plane.
+
+## Author and license
+D. Mohan Reddy, PMRF (Prime Minister's Research Fellow), Department of ECE, NIT Tiruchirappalli (NIT Trichy).
+
+Released under the [MIT License](../LICENSE): free to use, modify and share, keeping the copyright notice.
