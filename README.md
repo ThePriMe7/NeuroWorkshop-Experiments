@@ -5,6 +5,10 @@ Department of ECE, NIT Tiruchirappalli (NIT Trichy)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
+**Start with the slides:** [Neuromorphic_Bootcamp_Workshop.pdf](slides/Neuromorphic_Bootcamp_Workshop.pdf) (PDF, 109 pages). They cover the physics behind each
+neuron and synapse model, the water-tank analogies, the fixed-point hardware and a lab walk-through for every
+experiment, with annotated Vivado waveforms.
+
 Each folder is self-contained. Open `vivado/<Exx>.xpr` in the Vivado GUI: the project already holds the RTL,
 the self-checking testbench and the Basys 3 constraints, with the bitstream generated. `create_project.tcl`
 rebuilds it from scratch. Every README has the board controls and exercises.

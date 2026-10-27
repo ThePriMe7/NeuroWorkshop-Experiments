@@ -3,6 +3,8 @@
 **Author:** D. Mohan Reddy, PMRF (Prime Minister's Research Fellow),
 Department of ECE, NIT Tiruchirappalli (NIT Trichy)
 
+**Slides:** the [workshop deck](../slides/Neuromorphic_Bootcamp_Workshop.pdf) explains the physics of every model and walks through each lab.
+
 **Target:** Digilent Basys 3 (`xc7a35tcpg236-1`), Vivado 2025.2 (any recent version works).
 
 ## The physics in one paragraph
